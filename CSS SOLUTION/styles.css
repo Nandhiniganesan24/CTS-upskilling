@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Local Community Event Portal</title>
+
+  <!-- Link to external stylesheet -->
+  <link rel="stylesheet" href="styles.css">
+
+  <!-- Embedded style (internal) -->
+  <style>
+    /* Internal Style: Set body background */
+    body {
+      background-color: #f4f4f4;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Inline Style: Heading in red -->
+  <h1 style="color: red;">Welcome to the Local Community Event Portal</h1>
+
+  <header id="mainHeader">
+    <h2>Upcoming Events</h2>
+  </header>
+
+  <section class="eventCard">
+    <h3>Community Clean-Up</h3>
+    <p>Join us in making our neighborhood cleaner.</p>
+    <button class="cta-button">Register</button>
+  </section>
+
+  <nav>
+    <ul class="nav-list">
+      <li><a href="#">Home</a></li>
+      <li><a href="#">Events</a></li>
+      <li><a href="#">Contact</a></li>
+    </ul>
+  </nav>
+
+  <section class="bulletin">
+    <h2>Community Bulletin</h2>
+    <article>
+      <p>
+        Many exciting activities this weekend. Stay informed and involved in our growing community!
+      </p>
+    </article>
+  </section>
+
+  <table class="event-table">
+    <tr><th>Event</th><th>Date</th></tr>
+    <tr><td>Clean-Up Drive</td><td>June 10</td></tr>
+    <tr><td>Food Fest</td><td>June 15</td></tr>
+  </table>
+
+  <form>
+    <input type="text" placeholder="Your Name" class="form-field selected">
+  </form>
+
+</body>
+</html>
